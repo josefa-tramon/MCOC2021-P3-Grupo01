@@ -55,11 +55,15 @@ Mapa - Bastian Pavez
 
 Para esta entrega nos pedian el equilibrio de Wardrop, a partir de del siguiente diagrama de red, con sus respectivas funciones de costos en cada arco:
 
-![diagrama_funciones](https://user-images.githubusercontent.com/88336928/142065221-776e9fae-b5b6-42b3-96d5-fafbcafdffb4.png)
+                                               		 Figura 1
+
+![Funciones](https://user-images.githubusercontent.com/62305749/142085506-985af2a0-65d8-4f94-a045-cb1e9602329e.png)
+
 
 Luego se procedio a generar el algoritmo para resolver el equiibro de Wardrop, presente a continuación: (CAMBIAR CODIGO)
 
-Funcion Costos:
+Funcion Costos: En este código se establece una función que estima el costo de circular por ese arco en base al flujo de vehículos que tiene.
+
 ```
 	def costo(ni,nf,attr):
 	#print(f"ni= {ni} nf= {nf} attr={attr}")
@@ -69,7 +73,7 @@ Funcion Costos:
 
 ``` 
 
-Función para equilibrio de Wardrop:
+Función para equilibrio de Wardrop: Se realizan iteraciones en las cuales se incrementa paulatinamente el flujo de vehículos en los arcos asociados a una ruta mínima encontrada por la función "dijkstra_path()" correspondiente a la librería NetworkX, definiendo así de apoco un equilibrio de flujo tal que los costos de las distintas rutas para un par Origen Destino sea igual o lo más cercano a una igualdad posible. 
 
 ```
 while True:
@@ -117,14 +121,16 @@ while True:
 
 ``` 
 
-En el codigo anterior se puede ver que se fueron realizando una serie de incrementos para obtener un flujo más preciso. Además, se utiliza el diccionario dijkstra_path el cual nos indica la ruta mínima a partir de la matriz O-D entregada. A partir de la ruta mmínima se procede a modificar el flujo y el costo para cada arco, esto ocurre al identificar el origen y el destino de cada ruta, luego modificando el flujo a partir del incremento mencionado anteriormente y finalemnte se le resta el valor de la demanda actual por el incremento a la demanda OD[key]. Tal como se menciono al comienzo, el costo ira variando a medida que el flujo, dado que esta en funcon de este.  
+A partir de lo anterior se obtienen los siguientes resultados en los flujos finales por arco, para todo el sistema Origen Destino, el cual se presenta como Grafo a continuación:
 
-A partir de lo anterior se obtienen los siguientes resultados:
+                                               		 Figura 2
 
 ![Flujos](https://user-images.githubusercontent.com/62305749/142085111-93c6ee95-98e6-4105-8ce8-03780231130c.png)
 
 
-Estos se puede ver con mayor detalle en la impresión que hace nuestro código al terminar de iterar los calculos deequilibrio para nuestra matriz OD:
+Estos se puede ver con mayor detalle en la impresión que hace nuestro código en el terminal, al terminar de iterar los calculos de equilibrio para nuestra matriz OD evaluada:
+
+                                               		 Figura 3
 
 ![WhatsApp Image 2021-11-16 at 20 50 10](https://user-images.githubusercontent.com/62305749/142085188-fbd62b5f-9438-40ee-9726-22a930296958.jpeg)
 
