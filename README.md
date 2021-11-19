@@ -137,3 +137,85 @@ Estos se puede ver con mayor detalle en la impresión que hace nuestro código e
 En esta se puede apreciar que el mayor porcentaje de error obtenido fue de un 12,4 %, y el menor fue de un 0,61 %. Estos de puede deber a la falta de exactitud de los valores en la convergencia al realizar la iteración en el incremento de los flujos en los arcos, y posterior calculo de costos, para luego rencontrar una nueva ruta mínima correspondiente a los nuevos valores otorgados.
 
 
+**ENTREGA 5**
+A continuación, se presentan 3 grafos con diferentes demarcaciones, en los que se usarán los siguientes colores, según la jerarquía vial:
+	1.-AVO=ROJO
+	2.-MOTORWAY=NARANJO
+	3.-PRIMARY= AMARILLO
+	4.-SECONDARY= VERDE
+	5.-TERTIARY= AZUL
+	Imagen 1: Grafo con demarcación de calles, AVO y zonas de origen y destino 
+	![WhatsApp Image 2021-11-19 at 8 32 27 PM (1)](https://user-images.githubusercontent.com/88339083/142704032-9552b134-16aa-406f-99ac-60f8313efa0e.jpeg)
+
+	Imagen 2: Grafo con demarcación de calles, AVO y sus zonas influyentes, y zonas de origen y destino.
+	![WhatsApp Image 2021-11-19 at 8 32 27 PM](https://user-images.githubusercontent.com/88339083/142704038-c9cab158-e1a6-4268-aa54-354bafc2a524.jpeg)
+
+	Imagen 3: Grafo con demarcación de calles en zonas de origen y destino, y demarcación de AVO(ROJO).
+	![WhatsApp Image 2021-11-19 at 8 32 28 PM](https://user-images.githubusercontent.com/88339083/142704051-be0370d3-ed78-43da-9270-50e235599c0b.jpeg)
+
+
+¿Cómo seleccionó las zonas a incluir?
+	Las zonas para incluir fueron todas aquellas por las que pasa el proyecto AVO, además de todas las que están lo más paralelas posibles a la construcción, puesto que, considerando temas de accesibilidad, aquellas que presenten esta condición (y por tanto una menor ortogonalidad), generarán un mayor flujo de vehículos puesto que su acceso será más expedito. 
+Otro criterio, es que se trató de incluir zonas en las que existen lugares más concurridos, tales como colegios, malls y otros. 
+
+¿Cuántas zonas quedaron seleccionadas son?
+	Al considerar las zonas por las que pasa AVO y aquellas que muestras menor ortogonalidad, se seleccionaron un total de 55 correspondientes a  
+598, 599, 146, 590, 587, 591, 506, 515, 506, 683, 666, 682, 677, 668, 306, 320, 321, 300, 669, 312, 296, 293, 269, 266, 292, 303, 304, 291, 307, 287, 288, 289, 290, 512, 505, 504, 513, 496, 507, 508, 498, 499, 500, 497, 503, 510, 511, 516, 434, 514, 267, 684,313,299,502
+Luego, del total de zonas seleccionadas se eligieron 2 entre las cuales se realizarán los viajes a analizar. Que será desde la zona 502 a las 299 que considera viajes entre providencia y Las Condes, hasta el mall alto las Condes ubicados en la comuna de Las Condes. 
+ 
+ ![image](https://user-images.githubusercontent.com/88339083/142703678-2c1862b2-771d-43fb-90d9-be529dcda306.png)
+
+¿Cuántos viajes deberá asignar?
+	Considerando que se contemplará como origen y destinos las zonas 508 y 299 respectivamente, en base a los dato de “Encuesta de origen destino” se deberá asignar un total de 5.332.656.104 viajes
+ 
+ ![image](https://user-images.githubusercontent.com/88339083/142703686-0df7c771-bdf4-4f87-8f0f-442b64e0f168.png)
+ 
+¿Cuáles son los pares OD que espera Ud. que generen mayor flujo en AVO?
+	Los nodos para considerar los viajes serán los siguientes:
+
+		Destino 1: Mall alto Las Condes
+ 
+ ![image](https://user-images.githubusercontent.com/88339083/142703703-9037c084-6843-433a-89ff-e7cfeccaf36e.png
+
+			Número de nodo: 98; Av. Padre Hurtado Central 
+			Latitud: -33,3942
+			Longitud: -70,54531
+
+		Origen 1:
+
+![image](https://user-images.githubusercontent.com/88339083/142703716-b77453dc-adff-4b3b-b53c-9d46bd107a21.png)
+
+			Número de nodo: 3063; Las Achiras
+			Latitud: -33,43164
+			Longitud: -70,58603
+		
+		Origen 2:
+ 
+![image](https://user-images.githubusercontent.com/88339083/142703723-fa6adf78-fc11-4409-a838-65a49d9a00f4.png)
+
+			Número de nodo: 2999; Los tulipanes 
+			Latitud: -33,43247
+			Longitud: -70,58799
+		
+		Origen 3:
+
+![image](https://user-images.githubusercontent.com/88339083/142703739-a85759c3-237b-4a41-bd9a-6102aceb2e0f.png)
+
+			Número de nodo: 2069; Las Amapolas 
+			Latitud: -33,43414
+			Longitud: -70,58887
+
+De lo anterior, se analizarán los nodos Origen-Destino según las combinaciones:
+		Origen 1 - Destino 1
+		Origen 2 - Destino 1
+		Origen 3 - Destino 1
+Esperando que la mayor realización de viajes ocurra según Origen 1 – Destino 1, puesto que en esa intersección nos encontramos cercanos a dos avenidas importantes, que corresponden a Tobalaba y Francisco Bilbao.
+
+
+
+
+
+
+
+
+
