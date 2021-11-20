@@ -62,8 +62,9 @@ Figura 4
 
 Para esta entrega nos pedian el equilibrio de Wardrop, a partir de del siguiente diagrama de red, con sus respectivas funciones de costos en cada arco:
 
-Figura 1
-![Funciones](https://user-images.githubusercontent.com/62305749/142085506-985af2a0-65d8-4f94-a045-cb1e9602329e.png)
+> Figura 1
+>
+> ![Funciones](https://user-images.githubusercontent.com/62305749/142085506-985af2a0-65d8-4f94-a045-cb1e9602329e.png)
 
 
 Luego se procedio a generar el algoritmo para resolver el equiibro de Wardrop, presente a continuación: (CAMBIAR CODIGO)
@@ -129,14 +130,16 @@ while True:
 
 A partir de lo anterior se obtienen los siguientes resultados en los flujos finales por arco, para todo el sistema Origen Destino, el cual se presenta como Grafo a continuación:
 
-Figura 2
-![Flujos](https://user-images.githubusercontent.com/62305749/142085111-93c6ee95-98e6-4105-8ce8-03780231130c.png)
+> Figura 2
+>
+> ![Flujos](https://user-images.githubusercontent.com/62305749/142085111-93c6ee95-98e6-4105-8ce8-03780231130c.png)
 
 
 Estos se puede ver con mayor detalle en la impresión que hace nuestro código en el terminal, al terminar de iterar los calculos de equilibrio para nuestra matriz OD evaluada:
 
-Figura 3
-![WhatsApp Image 2021-11-16 at 20 50 10](https://user-images.githubusercontent.com/62305749/142085188-fbd62b5f-9438-40ee-9726-22a930296958.jpeg)
+> Figura 3
+>
+> ![WhatsApp Image 2021-11-16 at 20 50 10](https://user-images.githubusercontent.com/62305749/142085188-fbd62b5f-9438-40ee-9726-22a930296958.jpeg)
 
 En esta se puede apreciar que el mayor porcentaje de error obtenido fue de un 12,4 %, y el menor fue de un 0,61 %. Estos de puede deber a la falta de exactitud de los valores en la convergencia al realizar la iteración en el incremento de los flujos en los arcos, y posterior calculo de costos, para luego rencontrar una nueva ruta mínima correspondiente a los nuevos valores otorgados.
 
