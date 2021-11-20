@@ -40,13 +40,19 @@ Figura 4
 ## ENTREGA 3
 
 > Mapa - Sofía Astrain Verdugo
+>
 > ![Figure_1](https://user-images.githubusercontent.com/88336928/141456651-61ae4bda-7545-40c4-ab7e-225dab7c091b.png)
 
 
+
 > Mapa - Josefa Tramon
+>
 >![Plano entrega 3](https://user-images.githubusercontent.com/62305749/141600357-f84a619a-3fe2-41f7-8b67-1884c30bb424.png)
 
+
+
 > Mapa - Bastian Pavez
+> 
 >![WhatsApp Image 2021-11-12 at 22 36 06](https://user-images.githubusercontent.com/88339083/141600923-52cae84b-c348-4640-8f15-7692c56e712d.jpeg)
 
 
