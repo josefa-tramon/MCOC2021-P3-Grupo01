@@ -41,7 +41,7 @@ Figura 4
 
 
 
-								**ENTREGA 3
+								*ENTREGA 3
 
 Mapa - Sofía Astrain Verdugo
 
