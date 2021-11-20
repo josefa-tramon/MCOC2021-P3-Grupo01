@@ -18,20 +18,20 @@ Integrantes:
 
                                                 Figura 2 
 <div align="center">
-<img src=https://user-images.githubusercontent.com/62305749/141021100-a1365dd9-a0e8-4fc4-8c8c-9f900af8bf37.png >
+<img src=https://user-images.githubusercontent.com/62305749/141021100-a1365dd9-a0e8-4fc4-8c8c-9f900af8bf37.png width="350">
 </div>
 
 
                                                              
-                                                Figura 3
+							Figura 3
 <div align="center">
-<img src=https://user-images.githubusercontent.com/88339083/140987867-1f26aa7a-8f9c-45ad-9253-89fcaa950387.png >
+<img src=https://user-images.githubusercontent.com/88339083/140987867-1f26aa7a-8f9c-45ad-9253-89fcaa950387.png width="350">
 </div>                                               
 
 
                                                 Figura 4                              
 <div align="center">      
-<img src=https://user-images.githubusercontent.com/88339083/140987888-392371ad-ebde-490f-aa2b-df9bed5c6ae9.png >
+<img src=https://user-images.githubusercontent.com/88339083/140987888-392371ad-ebde-490f-aa2b-df9bed5c6ae9.png width="350">
 </div> 
 
 
