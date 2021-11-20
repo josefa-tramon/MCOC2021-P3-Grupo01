@@ -6,8 +6,8 @@ Integrantes:
 - Bastian Pavez
 - Josefa Tramon
 
-								 # ENTREGA 2
 -----------------------------------------
+								 # ENTREGA 2
 
 Figura 1
 <img src=https://user-images.githubusercontent.com/88339083/140987664-9cffc893-c697-4c4d-a431-eda5eef753c3.png width="350">
