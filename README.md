@@ -23,7 +23,7 @@ Integrantes:
 
 
                                                              
-							Figura 3
+								Figura 3
 <div align="center">
 <img src=https://user-images.githubusercontent.com/88339083/140987867-1f26aa7a-8f9c-45ad-9253-89fcaa950387.png width="350">
 </div>                                               
