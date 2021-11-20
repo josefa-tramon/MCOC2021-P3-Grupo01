@@ -7,22 +7,25 @@ Integrantes:
 - Josefa Tramon
 
 -----------------------------------------
-								 # ENTREGA 2
+## ENTREGA 2
 
 Figura 1
+
 <img src=https://user-images.githubusercontent.com/88339083/140987664-9cffc893-c697-4c4d-a431-eda5eef753c3.png width="350">
 
 
 Figura 2 
+
 <img src=https://user-images.githubusercontent.com/62305749/141021100-a1365dd9-a0e8-4fc4-8c8c-9f900af8bf37.png width="350">
 
                                                       
 Figura 3
+
 <img src=https://user-images.githubusercontent.com/88339083/140987867-1f26aa7a-8f9c-45ad-9253-89fcaa950387.png width="350">
                                               
 
+Figura 4       
 
-Figura 4                                 
 <img src=https://user-images.githubusercontent.com/88339083/140987888-392371ad-ebde-490f-aa2b-df9bed5c6ae9.png width="350">
 
 
@@ -34,7 +37,7 @@ Figura 4
 -----------------------------------------
 
 
-								 # ENTREGA 3
+## ENTREGA 3
 
 > Mapa - Sofía Astrain Verdugo
 
@@ -51,7 +54,7 @@ Figura 4
 
 -----------------------------------------
 
-						 		# ENTREGA 4
+## ENTREGA 4
 
 Para esta entrega nos pedian el equilibrio de Wardrop, a partir de del siguiente diagrama de red, con sus respectivas funciones de costos en cada arco:
 
@@ -136,7 +139,7 @@ En esta se puede apreciar que el mayor porcentaje de error obtenido fue de un 12
 
 ------------------------------------------------
 
-									# ENTREGA 5
+## ENTREGA 5
 									
 									
 A continuación, se presentan 3 grafos con diferentes demarcaciones, en los que se usarán los siguientes colores, según la jerarquía vial:
@@ -147,13 +150,13 @@ A continuación, se presentan 3 grafos con diferentes demarcaciones, en los que 
 	4.-SECONDARY :VERDE
 	5.-TERTIARY  :AZUL
 	
-# Imagen 1: Grafo con demarcación de calles, AVO y zonas de origen y destino 
+### Imagen 1: Grafo con demarcación de calles, AVO y zonas de origen y destino 
 ![WhatsApp Image 2021-11-19 at 8 32 27 PM (1)](https://user-images.githubusercontent.com/88339083/142704032-9552b134-16aa-406f-99ac-60f8313efa0e.jpeg)
 
-# Imagen 2: Grafo con demarcación de calles, AVO y sus zonas influyentes, y zonas de origen y destino.
+### Imagen 2: Grafo con demarcación de calles, AVO y sus zonas influyentes, y zonas de origen y destino.
 ![WhatsApp Image 2021-11-19 at 8 32 27 PM](https://user-images.githubusercontent.com/88339083/142704038-c9cab158-e1a6-4268-aa54-354bafc2a524.jpeg)
 
-# Imagen 3: Grafo con demarcación de calles en zonas de origen y destino, y demarcación de AVO(ROJO).
+### Imagen 3: Grafo con demarcación de calles en zonas de origen y destino, y demarcación de AVO(ROJO).
 ![WhatsApp Image 2021-11-19 at 8 32 28 PM](https://user-images.githubusercontent.com/88339083/142704051-be0370d3-ed78-43da-9270-50e235599c0b.jpeg)
 
 
@@ -185,14 +188,14 @@ Considerando que se contemplará como origen y destinos las zonas 508 y 299 resp
 	
 Los nodos para considerar los viajes serán los siguientes:
 
-# Destino 1: Mall alto Las Condes
+### Destino 1: Mall alto Las Condes
 ![image](https://user-images.githubusercontent.com/88339083/142703703-9037c084-6843-433a-89ff-e7cfeccaf36e.png
 
 			- Número de nodo: 98; Av. Padre Hurtado Central 
 			- Latitud: -33,3942
 			- Longitud: -70,54531
 
-# Origen 1:
+### Origen 1:
 
 ![image](https://user-images.githubusercontent.com/88339083/142703716-b77453dc-adff-4b3b-b53c-9d46bd107a21.png)
 
@@ -200,7 +203,7 @@ Los nodos para considerar los viajes serán los siguientes:
 			Latitud: -33,43164
 			Longitud: -70,58603
 		
-# Origen 2:
+### Origen 2:
  
 ![image](https://user-images.githubusercontent.com/88339083/142703723-fa6adf78-fc11-4409-a838-65a49d9a00f4.png)
 
@@ -208,7 +211,7 @@ Los nodos para considerar los viajes serán los siguientes:
 			Latitud: -33,43247
 			Longitud: -70,58799
 		
-# Origen 3:
+### Origen 3:
 ![image](https://user-images.githubusercontent.com/88339083/142703739-a85759c3-237b-4a41-bd9a-6102aceb2e0f.png)
 
 			Número de nodo: 2069; Las Amapolas 
